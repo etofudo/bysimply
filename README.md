@@ -40,7 +40,7 @@ BuySimply/
 │       ├── _app.js                  # Custom Next.js App
 │       ├── _document.js             # Custom Next.js Document
 │       └── api/
-│           └── hello.js             # Minimal Next.js API route
+│           └── hello.js             # Next.js API route
 ├── controllers/                     # Express controllers
 ├── middlewares/                     # Express middlewares
 ├── routes/                          # Express routes
@@ -58,13 +58,12 @@ BuySimply/
 ---
 
 ## Setup & Installation
-1. **Clone the repository** (if applicable):
+1. **Clone the repository**:
    ```bash
    git clone <repo-url>
    cd BuySimply
    ```
-2. **Install dependencies** (if not already installed):
-   ```bash
+2. **Install dependencies** 
    npm install express morgan cors express-rate-limit jsonwebtoken next react react-dom
    ```
 3. **Data Files**: Ensure `test-data/data/staffs.json` and `test-data/data/loans.json` exist and are properly formatted.
@@ -106,13 +105,6 @@ node index.js
 ---
 
 ## Development Notes
-- **Passwords** in `staffs.json` are stored in plaintext for demo purposes. Use hashing (e.g., bcrypt) for production.
-- **JWT Secret**: Set `JWT_SECRET` in your environment for security.
-- **Environment Variables**: Consider using a `.env` file and the `dotenv` package.
 - **Testing**: Add automated tests for endpoints as needed.
 - **Session Management**: JWT logout is stateless; for true session invalidation, use a token blacklist.
 - **Next.js Integration**: The Express server is integrated with Next.js for SSR and API routes.
-
----
-
-**Feel free to extend the project with more features, pages, or API endpoints as needed!** 
