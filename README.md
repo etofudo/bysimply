@@ -58,13 +58,12 @@ BuySimply/
 ---
 
 ## Setup & Installation
-1. **Clone the repository** (if applicable):
+1. **Clone the repository**:
    ```bash
    git clone <repo-url>
    cd BuySimply
    ```
-2. **Install dependencies** (if not already installed):
-   ```bash
+2. **Install dependencies** 
    npm install express morgan cors express-rate-limit jsonwebtoken next react react-dom
    ```
 3. **Data Files**: Ensure `test-data/data/staffs.json` and `test-data/data/loans.json` exist and are properly formatted.
