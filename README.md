@@ -99,7 +99,6 @@ node index.js
 
 ## Next.js SSR Frontend
 - The homepage (`/`) is rendered server-side using Next.js.
-- You can add more pages under `ServerSideRenderedFrontend/pages/`.
 - Minimal API route example at `/api/hello`.
 
 ---
