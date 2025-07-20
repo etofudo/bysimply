@@ -105,5 +105,5 @@ node index.js
 
 ## Development Notes
 - **Testing**: Add automated tests for endpoints as needed.
-- **Session Management**: JWT logout is stateless; for true session invalidation, use a token blacklist.
+- **Session Management**: JWT logout is stateless; for true session invalidation.
 - **Next.js Integration**: The Express server is integrated with Next.js for SSR and API routes.
